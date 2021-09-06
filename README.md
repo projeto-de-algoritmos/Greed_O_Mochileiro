@@ -14,7 +14,10 @@
 Este projeto tem como proposta resolver o problema de knapsack, ou problema da mochila. Esse problema se consiste em encotrar os melhores itens para se levar em uma uma mochila, considerando a capacidade máxima da mochila, o peso e o valor dos itens.
 
 ## Screenshots
-Adicione 3 ou mais screenshots do projeto em funcionamento.
+<img src="/midias/knapsack_1.png" alt="Github" width="800"/>
+<img src="/midias/knapsack_2.png" alt="Github" width="800"/>
+<img src="/midias/knapsack_saida.png" alt="Github" width="800"/>
+<img src="/midias/knapsack_algoritmo.png" alt="Github" width="800"/>
 
 ## Instalação 
 **Linguagem**: Python3<br>

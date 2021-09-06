@@ -16,8 +16,25 @@ def knapsack(v, w, C):
                 m[(i,c)] = m[(i-1,c)]
     return m[(N,C)]
 
-v = [500, 250, 1500, 1200, 1200, 800]
-w = [4, 3, 10, 12, 9, 6]
-C = 30
+# v = [500, 250, 1500, 1200, 1200, 800]
+# w = [4, 3, 10, 12, 9, 6]
+# C = 30
+C = int(input("Digite a capacidade da mochila (peso): "))
+qtde = int(input("Digite a quantidade de itens para se levar na mochila: "))
+nomeItens = []
+v = []
+w = []
+for i in range (0, qtde):
+    elem = str(input("Digite o nome do item {}: ".format(i+1)))
+    nomeItens.append(elem)
 
-print(knapsack(v, w, C))
+for i in range (0, qtde):
+    elem = float(input("Digite o valor do item {}: ".format(i+1)))
+    v.append(elem)
+
+for i in range (0, qtde):
+    elem = int(input("Digite o peso do item {}: ".format(i+1)))
+    w.append(elem)    
+
+
+print("O maior valor possível para se carregar na mochila é:",knapsack(v, w, C))

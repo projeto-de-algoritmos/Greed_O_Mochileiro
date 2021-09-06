@@ -17,7 +17,7 @@ Este projeto tem como proposta resolver o problema de knapsack, ou problema da m
 <img src="/midias/knapsack_1.png" alt="Github" width="800"/>
 <img src="/midias/knapsack_2.png" alt="Github" width="800"/>
 <img src="/midias/knapsack_saida.png" alt="Github" width="800"/>
-<img src="/midias/knapsack_algoritmo.png" alt="Github" width="800"/>
+
 
 ## Instalação 
 **Linguagem**: Python3<br>
